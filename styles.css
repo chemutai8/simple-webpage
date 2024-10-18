@@ -15,7 +15,7 @@ p {
 }
 
 .styled-button {
-    background-color: #4CAF50;
+    background-color: #3498db;  /* Changed from #4CAF50 to #3498db */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -29,5 +29,16 @@ p {
 }
 
 .styled-button:hover {
-    background-color: #45a049;
+    background-color: #2980b9;  /* Changed from #45a049 to #2980b9 */
+}
+
+.new-section {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.new-section h2 {
+    color: #2c3e50;
 }
